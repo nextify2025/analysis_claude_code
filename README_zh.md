@@ -37,11 +37,12 @@
 ## 快速开始
 
 ```bash
+# 安装依赖
 pip install anthropic python-dotenv
 
-# 配置 API
+# 配置 API Key
 cp .env.example .env
-# 编辑 .env 填入你的 API key
+# 编辑 .env 填入你的 ANTHROPIC_API_KEY
 
 # 运行任意版本
 python v0_bash_agent.py  # 极简版

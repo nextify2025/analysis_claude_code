@@ -38,11 +38,11 @@ A progressive tutorial that demystifies AI coding agents like Kode, Claude Code,
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+pip install anthropic python-dotenv
 
-# Configure your API
+# Configure API key
 cp .env.example .env
-# Edit .env with your API key (supports Anthropic, OpenAI, Gemini, etc.)
+# Edit .env with your ANTHROPIC_API_KEY
 
 # Run any version
 python v0_bash_agent.py  # Minimal
